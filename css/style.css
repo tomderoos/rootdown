@@ -1,5 +1,27 @@
 body {
-  background-color: yellow; }
+  background: #7AB9B4; }
 
-h1 {
-  font-size: 50px; }
+.preload * {
+  -webkit-transition: none !important;
+  -moz-transition: none !important;
+  -ms-transition: none !important;
+  -o-transition: none !important; }
+
+.wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap; }
+
+header.header {
+  display: block;
+  background-color: #0e8a78;
+  position: fixed;
+  height: 100vh;
+  width: 25%; }
+
+.content {
+  display: block;
+  background: #fff;
+  width: 75%;
+  padding: 50px; }
